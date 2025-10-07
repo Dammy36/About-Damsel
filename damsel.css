@@ -66,6 +66,17 @@ button:hover {
   max-width: 600px;
 }
 
+@media (max-width: 768px) {
+  .images img {
+    max-width: 370px;
+  }
+
+  .grid-image {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+
 .nail-picture {
   border-radius: 10px;
   transition: all 150ms ease-in-out;
