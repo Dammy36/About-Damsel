@@ -67,6 +67,14 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
   .images img {
     max-width: 370px;
   }
@@ -74,6 +82,12 @@ button:hover {
   .grid-image {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+  }
+  p {
+    font-size: 22px;
+  }
+  button {
+    font-size: 20px;
   }
 }
 
